@@ -1,7 +1,7 @@
 function decomp() {
  
   if (nb < 2 || !Number(nb)){
-    console.log("Erreur ! Veuillez entrer un chiffre au moins supérieur ou égal à 2. N'écrivez pas votre chiffre en toute lettre.");
+    console.log("Erreur ! Veuillez saisir un nombre au moins supérieur ou égal à 2. N'écrivez pas votre nombre en toute lettre.");
     } else {
       
   var primeNumber = [];
@@ -17,5 +17,5 @@ function decomp() {
   }
 }
 
-nb  = prompt("Entrez un chiffre")
+nb  = prompt("Veuillez saisir un nombre")
 decomp(nb);
